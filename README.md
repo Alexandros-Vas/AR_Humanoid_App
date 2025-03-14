@@ -45,4 +45,31 @@ Usage:
    
 This application is designed for various purposes and should not be used for commercial or unauthorized activities.
 
+## 📂 Dataset for Human Detection & Recognition  
+
+🚨 **Note:** The dataset is **not included in this repository**. It is available for download in the **[Releases](https://github.com/Alexandros-Vas/AR_Humanoid_App/releases)** section.  
+
+### 📜 Dataset Contents  
+The dataset consists of:  
+- Multiple **room folders** (e.g., `Bedroom/`, `Kitchen/`, `Office_A/`, etc.)  
+- Each folder contains:  
+  - **Images:** Captured under different lighting conditions, distances, and rotations.  
+  - **CSV Metadata File:** Includes structured annotations such as:  
+    - `Humanoid ID`  
+    - `Distance from Camera`  
+    - `Rotation Angle`  
+    - `Bounding Box Coordinates (Body & Head)`  
+    - `Screenshot Filename`  
+
+### 📥 Download the Dataset  
+The dataset is available as a **ZIP file** in the **[Releases](https://github.com/Alexandros-Vas/AR_Humanoid_App/releases)** section.  
+
+### 🎯 Usage  
+This dataset is designed for training and evaluating models in:  
+- **Human body detection**  
+- **Head detection**  
+- **Face recognition**  
+
+The metadata file provides structured information for supervised learning tasks.
+
 Disclaimer: The information provided here is for educational purposes only. The developer is not responsible for any misuse of the application.
